@@ -1,0 +1,30 @@
+﻿/* =============================================================================
+   UNICORN'S COWORKING SPACE — unicornscoworking.in
+   Custom stylesheet (non-Tailwind utilities)
+   ============================================================================= */
+
+/* -- Blueprint Grid Backgrounds ---------------------------------------------- */
+.bg-blueprint {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(0, 82, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 82, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-navy-blueprint {
+  background-size: 48px 48px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* -- Range Input -------------------------------------------------------------- */
+input[type="range"] {
+  accent-color: #0052FF;
+}
+
+/* -- Custom Scrollbar (WebKit) ----------------------------------------------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #F8FAFC; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #0052FF; }
